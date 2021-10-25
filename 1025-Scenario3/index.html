@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- The input type range is a slider with default min/max of 0–100 -->
+    <!-- The oninput event will call the fontSize function whenever the slider is moved -->
+    <!-- It will pass this.value, the value of the slider, into the function -->
+    <input type="range" oninput="fontSize(this.value)">
+    
+    <!-- The text that is going to be changed -->
+    <div id="my-text">Hello</div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

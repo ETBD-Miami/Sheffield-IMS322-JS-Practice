@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Create some text and set the id attribute so that it can be refered to in the javascript -->
+    <h1 id="color-text">COLOR</h1>
+
+    <!-- Create a dropdown menu with 3 color options -->
+    <!-- The onchange event will call the function changeColor() and pass in the value of the current selection -->
+    <select name="colors" id="colors" onchange="changeColor(this.value)">
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+      </select>
+
+    <script src="main.js"></script>
+</body>
+</html>
